@@ -1,0 +1,13 @@
+spring.datasource.url: "jdbc:mysql://localhost:3306/agenda-api"
+spring.datasource.username: horus
+spring.datasource.password: 123456
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver
+spring.datasource.max-active: 10
+spring.datasource.initial-size: 5
+spring.datasource.max-idle: 5
+spring.datasource.min-idle: 1
+spring.datasource.test-while-idle: true
+spring.datasource.test-on-borrow: true
+spring.datasource.validation-query: "SELECT 1"
+pring.datasource.time-between-eviction-runs-millis: 5000
+spring.datasource.min-evictable-idle-time-millis: 60000

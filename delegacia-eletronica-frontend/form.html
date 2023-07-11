@@ -1,0 +1,253 @@
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+
+<body id="body">
+    <div id="teste">
+        <div id="teste2">
+            <nav class="navbar" id="nav">
+                <div class="container" id="nav">
+                    <a class="navbar-brand" href="#" id="a">
+                        <img src="distintivo.png" alt="Bootstrap" width="200" height="70"
+                            class="d-inline-block align-text-top">
+                    </a>
+
+            </nav>
+
+
+            <div class="container">
+                <h3 id="fonteH1">Cadastro de Boletim de Ocorrência - Furto de veículo</h3>
+                <hr id="hrcolor">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button id="opcao" class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Dados da ocorrência
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-floating mb-3">
+                                    <input type="data" class="form-control" id="identificador" placeholder="data">
+                                    <label for="floatingInput">Identificador</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="data" class="form-control" id="data" placeholder="data">
+                                    <label for="floatingInput">Data</label>
+                                </div>
+                                <div class="form-floating mb-3 ">
+                                    <input type="periodo" class="form-control" id="periodo" placeholder="periodo">
+                                    <label for="floatingInput">Período</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="logradouro" class="form-control" id="logradouro"
+                                        placeholder="Logradouro">
+                                    <label for="floatingInput">Logradouro</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="numero" class="form-control" id="numero" placeholder="Numero">
+                                    <label for="floatingInput">Número</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="bairro" class="form-control" id="bairro" placeholder="Bairro">
+                                    <label for="floatingInput">Bairro</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="cidadeOcorrencia" class="form-control" id="cidade"
+                                        placeholder="cidadeOcorrencia">
+                                    <label for="floatingInput">Cidade</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="estadoOcorrencia" class="form-control" id="estado"
+                                        placeholder="estadoOcorrencia">
+                                    <label for="floatingInput">Estado</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button id="opcao" class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                Dados do veículo
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-floating mb-3">
+                                    <input type="placa" class="form-control" id="placa" placeholder="placa">
+                                    <label for="floatingInput">Placa</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="estado" class="form-control" id="estadoVeiculo" placeholder="estado">
+                                    <label for="floatingInput">Estado</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="cidade" class="form-control" id="cidadeVeiculo" placeholder="cidade">
+                                    <label for="floatingInput">Cidade</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="cor" class="form-control" id="cor" placeholder="cor">
+                                    <label for="floatingInput">Cor</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="marca" class="form-control" id="marca" placeholder="marca">
+                                    <label for="floatingInput">Marca</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="tipo" class="form-control" id="tipo" placeholder="tipo">
+                                    <label for="floatingInput">Tipo</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="Ano" class="form-control" id="ano" placeholder="ano">
+                                    <label for="floatingInput">Ano</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button id="opcao" class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Dados da vítima
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-floating mb-3">
+                                    <input type="nome" class="form-control" id="nome" placeholder="name">
+                                    <label for="floatingInput">Nome</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                                    <label for="floatingInput">Email</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="telefone" class="form-control" id="telefone" placeholder="telefone">
+                                    <label for="floatingInput">Telefone</label>
+                                </div>
+                                <div id="button">
+                                    <a id="cadastrar"><button id="btn" type="button"
+                                            class="btn btn-outline-secondary">Cadastrar</button></a>
+                                    <a href="principal.html"> <button id="btn" type="button"
+                                            class="btn btn-outline-secondary">Voltar</button></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <style>
+        #body {
+            background-image: url(furto.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        #fonteH1 {
+            color: #D9B08C;
+
+        }
+
+        #hrcolor {
+            color: #2C3531;
+        }
+
+        #a {
+            color: #2C3531;
+        }
+
+        #opcao {
+            background-color: #D9B08C;
+        }
+
+        #button {
+            text-align: center;
+        }
+
+        #teste {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #teste2 {
+            border-radius: 24px;
+            background-color: #2c3531ba;
+        }
+
+        #nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        #btn:hover {
+            background-color: #116466 !important;
+            border-color: #116466 !important;
+            opacity: .5;
+            transition: .5s;
+           
+
+
+        }
+
+        #btn {
+            background-color: #116466 !important;
+            border-color: #116466 !important;
+            color: black;
+
+        }
+    </style>
+
+
+
+</body>
+
+</html>
+
+<script src="jquery.js"></script>
+<script src="cadastro.js"></script>
